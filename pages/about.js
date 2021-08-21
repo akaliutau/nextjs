@@ -7,8 +7,18 @@ export default function AboutPage(prop) {
 	
   return (
   	<div>
-	  <div> About me</div>
-	  <SocialFollow/>
+	  <div className="container">
+ 
+		<header>
+           <NavigationBar/>
+		</header>
+		
+		<main>
+			<div> About me</div>
+			
+			<SocialFollow/>
+		</main>
+	  </div>
 	</div>
   )
 }

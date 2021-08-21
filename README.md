@@ -16,6 +16,19 @@ npx next telemetry disable
 ```
 
 
- 
+
+Start development server:
+
+```
+npm run dev
+```
+
+Notes about code
+=================
+
+1. requirements for card's images on the main page:
+   
+   * resolution 400x267 px
+   * apply median filter with radius=9
 
 
