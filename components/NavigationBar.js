@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import * as navBarStyles from './NavigationBar.module.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -18,10 +19,13 @@ import {
 
 export default function NavigationBar() {
   return (
-           <Navbar expand="sm" bg="light" className="general_menu">
+      <div>
+        <Navbar expand="sm" className="general_menu">
 			<Nav className="container-fluid">
 				<Nav.Item>
-					<Navbar.Brand>ALIAKSEI KALIUTAU</Navbar.Brand>
+					<Navbar.Brand>
+					   <span className={navBarStyles.mainTitle}>ALIAKSEI KALIUTAU</span>
+					</Navbar.Brand>
 				</Nav.Item>
 				<Nav.Item>
 					<Navbar.Brand href="/">Gallery</Navbar.Brand>
@@ -30,8 +34,7 @@ export default function NavigationBar() {
 					<Navbar.Brand href="/about">About me</Navbar.Brand>
 				</Nav.Item>
 			</Nav>
-			
 		</Navbar>
-
+	  </div>		
   );
 }

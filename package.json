@@ -27,5 +27,8 @@
   "description": "Experimental photo gallery",
   "main": "next.config.js",
   "author": "Aliaksei Kaliutau",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0"
+  }
 }

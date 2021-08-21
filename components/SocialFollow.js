@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import styles from './SocialFollow.module.css'
+import * as styles from './SocialFollow.module.css'
 
 import {
   faYoutube,
@@ -14,8 +14,9 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div className=" socialContainer">
-		<div> Follow me on: </div>
+    <div>
+		<div className={styles.socialContainer}>
+		<div> Follow me: </div>
 		<span> </span>
 	    <a href="https://www.twitter.com/kaliutau" className="twitter social">
 			<FontAwesomeIcon icon={faTwitter} size="2x" />
@@ -29,6 +30,7 @@ export default function SocialFollow() {
 			<FontAwesomeIcon icon={faGithub} size="2x" />
 		</a>
 		<span> </span>
+		</div>
 	</div>
   );
 }

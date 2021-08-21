@@ -24,11 +24,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 	  
- 		   <nav>
-      <ul className="menu">
-        <NavigationBar/>
-      </ul>
-    </nav>
+	  <header>
+		<nav>
+			<ul className="menu">
+				<NavigationBar/>
+			</ul>
+		</nav>
+	  </header>
 
       <main>
         <div className="grid">

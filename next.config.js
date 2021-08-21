@@ -6,11 +6,6 @@ module.exports = {
     UNSPLASH_API_KEY: process.env.UNSPLASH_API_KEY,
   },
   webpack5: true,
-  webpack: (config) => {
-    config.resolve.fallback = { fs: false };
-
-    return config;
-  },
   async headers() {
     return [
       {

@@ -1,5 +1,5 @@
 .socialContainer {
-   background: #eee;
+   background: #eeeeee;
    display: inline-block;
  }
 
@@ -27,4 +27,11 @@ a.twitter {
 
 a.instagram {
   color: black;
+}
+
+/*LESS code */
+.head-line-wrapper {
+   .headliner-container {
+     margin: 0 20px;
+   }
 }
