@@ -21,10 +21,13 @@ export default function NavigationBar() {
            <Navbar expand="sm" bg="light" className="general_menu">
 			<Nav className="container-fluid">
 				<Nav.Item>
-					<Navbar.Brand href="/">AV KALIUTAU</Navbar.Brand>
+					<Navbar.Brand>ALIAKSEI KALIUTAU</Navbar.Brand>
 				</Nav.Item>
-				<Nav.Item className="border-left pl-2 ml-auto">
-					<SocialFollow/>
+				<Nav.Item>
+					<Navbar.Brand href="/">Gallery</Navbar.Brand>
+				</Nav.Item>
+				<Nav.Item>
+					<Navbar.Brand href="/about">About me</Navbar.Brand>
 				</Nav.Item>
 			</Nav>
 			
