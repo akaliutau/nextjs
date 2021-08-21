@@ -1,0 +1,31 @@
+{
+  "name": "photo-gallery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "next": "^11.0.0",
+    "next-connect": "^0.10.2",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "17.0.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "description": "Experimental photo gallery",
+  "main": "next.config.js",
+  "author": "Aliaksei Kaliutau",
+  "license": "ISC"
+}
