@@ -1,6 +1,10 @@
 .socialContainer {
-   background: #eeeeee;
+   background: #fefefe;
    display: inline-block;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+   font-weight: bold;   
  }
 
 a.social {

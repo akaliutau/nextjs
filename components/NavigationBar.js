@@ -28,10 +28,10 @@ export default function NavigationBar() {
 					</Navbar.Brand>
 				</Nav.Item>
 				<Nav.Item>
-					<Navbar.Brand href="/">Gallery</Navbar.Brand>
+					<Navbar.Brand className={navBarStyles.ref} href="/">Gallery</Navbar.Brand>
 				</Nav.Item>
 				<Nav.Item>
-					<Navbar.Brand href="/about">About me</Navbar.Brand>
+					<Navbar.Brand className={navBarStyles.ref} href="/about">About me</Navbar.Brand>
 				</Nav.Item>
 			</Nav>
 		</Navbar>
