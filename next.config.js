@@ -3,7 +3,7 @@ module.exports = {
   source: '/:path*',
   destination: 'https://drive.google.com/:path*',
   env: {
-    UNSPLASH_API_KEY: process.env.UNSPLASH_API_KEY,
+    UNSPLASH_API_KEY: process.env.UNSPLASH_API_KEY
   },
   webpack5: true,
   async headers() {

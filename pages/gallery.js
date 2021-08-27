@@ -17,17 +17,28 @@ class Gallery extends React.Component {
 		console.log('MyLoader props :' + JSON.stringify(props));
    }
 
-handleGoogleClientLoad() {
+handleClientLoad() {
     console.log('Success on load');
 }
 
 componentDidMount() {
-
+	
+	var wHeight = window.innerHeight;
+	var wWidth = window.innerWidth;
+	console.log('wHeight='+wHeight);
+	console.log('wWidth='+wWidth);
+    var itemsPR = Math.floor(wWidth / 300) + 1;
+	console.log('itemsPR='+itemsPR);
+ 	itemsPR = itemsPR > 2 ? 3 : 2;
+    var minNumbRows = Math.floor(wHeight / 300) + 1;
+	console.log('minNumbRows='+itemsPR);
+ 	minNumbRows = minNumbRows > 3 ? minNumbRows : 3;
+	
     var options = {
-        rowHeight: 400,
-		gap: 120,
-		itemsPerRow: 3,
-		minRowsAtStart: 3, //<-- calculate
+        rowHeight: 300,
+		gap: 110,
+		itemsPerRow: itemsPR,
+		minRowsAtStart: minNumbRows, //<-- calculate
 		rowsPerPage: 0,
         lightbox: true,
         ratioLimit: {
@@ -38,7 +49,7 @@ componentDidMount() {
 		
 	console.log('props: ' + JSON.stringify(this.props));
 	
-	this.handleGoogleClientLoad();
+	this.handleClientLoad();
  
     // Get reference of gallery container
     var elementRef = document.getElementById('gallery');
@@ -65,10 +76,6 @@ componentDidMount() {
                     enlargedHeight: i.height,
                     title: i.description ? i.description : "",
                     color: '#0070f3'
-					//height: 400,
-					//width:400,
-                    //backgroundPosition: ['0% 0%', '100% 100%', undefined][Math.floor(Math.random() * 3)],
-                    //backgroundSize: ['cover', 'contain', undefined][Math.floor(Math.random() * 3)]
                 }
 			items.push(obj);
 			items.push(obj);
@@ -76,9 +83,7 @@ componentDidMount() {
 		console.log(JSON.stringify(items))
 		console.log('adding items')
         gallery.addItems(items);
-		    // Init the gallery
- 
-	})
+ 	})
 
 	
 

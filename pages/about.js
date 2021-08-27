@@ -39,13 +39,18 @@ export default function AboutPage(prop) {
 			<div className="title"> About me</div>
 			
 		    <div className="text">
-			<div> Hi, I'm Aliaksei. I work as a software developer for various companies whilst living a nomadic global lifestyle. Currently I work in the area of Intelligent Automations and AI Research at IBA. </div>
+			<div> 
+			To those I’ve never met before: Nice to meet you!
+			</div> 
+			<div> 
+			To those I’ve met before: Long time no see!
+			</div> 
 			<p/>
-            <div> My background is a Masters Degree in Physics / Computer Science from Brest State University, Belarus. I always was interested both in Physics / Mathematics and in application of scientific principles to solve real-life problems, and modern IT industry gave me the chance to fulfill these interests.</div>
+			<div>My name is Aliaksei. I work as a software developer for various companies whilst living a nomadic global lifestyle. Currently I work in the area of Intelligent Automations and AI Research at IBA. </div>
 			<p/>
-			<div>In my spare time I like making photos, walking uncharted paths, and generally try to enjoy life to its fullest.</div>
+            <div> My background is a Masters Degree in Physics / Computer Science from Brest State University, Belarus. I always was interested both in Physics / Mathematics and in application of scientific principles to solve real-life problems. Modern IT industry gave me the chance to fulfill these interests.</div>
 			<p/>
-			<div>I specialise in the applications of AI/ML in various markets, in high-performance distributed systems, as well as in other more novel areas such as RPA, ML, Intelligent Automations, and always ready to learn something new. Technology is constantly evolving, and I like it. I'm always on the quest for the Holy Stack.</div>
+			<div>I specialise in the applications of AI/ML in various markets, in high-performance distributed systems, as well as in other more novel areas such as RPA, Intelligent Automations, and always ready to learn something new. Technology is constantly evolving, and I like it. I'm always on the quest for the Holy Stack.</div>
 			<p/>
 			<div> Here are my favourite languages and tools:</div>
 			<p/>
@@ -85,6 +90,9 @@ export default function AboutPage(prop) {
 					<FontAwesomeIcon icon={faUbuntu} size="2x" />
 				</a>
 			</div>
+			<p/>
+			<div>In my spare time I like making photos (some of them are presented on this site), walking uncharted paths, and generally try to enjoy life to its fullest.</div>
+
 			</div>
 			<SocialFollow/>
 		</main>
