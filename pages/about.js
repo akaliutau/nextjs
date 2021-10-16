@@ -9,6 +9,7 @@ import {
   faPython,
   faFlask,
   faAws,
+  faGoogle,
   faGit,
   faJs,
   faNodeJs,
@@ -46,7 +47,7 @@ export default function AboutPage(prop) {
 			To those I’ve met before: Long time no see!
 			</div> 
 			<p/>
-			<div>My name is Aliaksei. I work as a software developer for various companies whilst living a nomadic global lifestyle. Currently I'm working on petabyte scale Analytical Data Pipelineswork at <a href="https://www.ocadogroup.com/technology/technology-pioneers" rel="noopener noreferrer" target="_blank">Ocado Technology</a>, and my previous work at <a href="https://ibagroupit.com/" rel="noopener noreferrer" target="_blank"> IBA</a> was tied with the area of Intelligent Automations and AI Research.</div>
+			<div>My name is Aliaksei. I work as a software developer for various companies whilst living a nomadic global lifestyle. Currently I'm working on petabyte scale Analytical Data Pipelines at <a href="https://www.ocadogroup.com/technology/technology-pioneers" rel="noopener noreferrer" target="_blank">Ocado Technology</a>, and my previous work at <a href="https://ibagroupit.com/" rel="noopener noreferrer" target="_blank"> IBA</a> was tied with the area of Intelligent Automations and AI Research.</div>
 			<p/>
             <div> My background is a Masters Degree in Physics / Computer Science from Brest State University, Belarus. I always was interested both in Physics / Mathematics and in application of scientific principles to solve real-life problems. Modern IT industry gave me the chance to fulfill these interests.</div>
 			<p/>
@@ -76,6 +77,10 @@ export default function AboutPage(prop) {
 				<span> </span>
 				<a href="https://aws.amazon.com/" className="aws social blackiconcolor" data-toggle="tooltip" title="AWS">
 					<FontAwesomeIcon icon={faAws} size="2x" />
+				</a>
+				<span> </span>
+				<a href="https://cloud.google.com//" className="google social blackiconcolor" data-toggle="tooltip" title="Google Cloud">
+					<FontAwesomeIcon icon={faGoogle} size="2x" />
 				</a>
 				<span> </span>
 				<a href="https://git-scm.com/" className="git social blackiconcolor" data-toggle="tooltip" title="Git">
