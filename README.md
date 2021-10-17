@@ -42,9 +42,9 @@ The steps:
 
 1. Sign up to Vercel.
 
-2. After signing up, go to "Import Project" -> "From Git Repository", choose the Git provider you use and set up an integration.
+2. After signing up/ logging in, choose "New project", then "Import Project" -> "From Git Repository", choose the Git provider you use and set up an integration with your personal account/selected repository, with permissions to 1) read metadata, and 2) read and write access to administration, checks, code, commit statuses, deployments, issues, pull requests, and repository hooks. I does make sense to allow access to only specific repository.
 
-3. Once that’s set up, click "Import Project From..." and import your Next.js app. It auto-detects that your app is using Next.js and sets up the build configuration.
+3. Once that’s set up, click "Import Project From..." and import your Next.js app. It auto-detects that your app is using Next.js and sets up the build configuration. On this stage one can skip the creation of team, if you are the single contributor/owner for your project, so one can go straight to project configuration. One can choose the pre-defined configuration from a quite long list of various frameworks/platforms.
 
 4. After importing, it’ll deploy Next.js app and provide a deployment URL. Click "Visit" to see your app in production.
 
