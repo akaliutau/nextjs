@@ -22,7 +22,7 @@ export default function SocialFollow() {
 			<FontAwesomeIcon icon={faTwitter} size="2x" />
 		</a>
 		<span> </span>
-		<a href="https://www.linkedin.com/in/aliaksei-kaliutau-53a791162" className="linkedin social">
+		<a href="https://www.linkedin.com/in/aliaksei-kaliutau" className="linkedin social">
 			<FontAwesomeIcon icon={faLinkedin} size="2x" />
 		</a>
 		<span> </span>
