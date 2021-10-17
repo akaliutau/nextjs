@@ -27,6 +27,17 @@ npm run dev
 Production build
 =================
 
+The package.json should contain the following (generic) scripts:
+
+```
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+}
+```
+In particular, the ```build``` goal runs `next build` which builds the application for production usage
 
 
 
