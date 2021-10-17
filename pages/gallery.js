@@ -47,8 +47,6 @@ componentDidMount() {
 		}
 		};
 		
-	console.log('props: ' + JSON.stringify(this.props));
-	
 	this.handleClientLoad();
  
     // Get reference of gallery container
@@ -63,7 +61,6 @@ componentDidMount() {
 	
 	getQueryPhotos(this.props.tag)
 	.then(data => {
-		console.log(JSON.stringify(Object.keys(data)))
 		//Covert your map object into JSON object
 		var items=[];
 
@@ -78,9 +75,7 @@ componentDidMount() {
                     color: '#0070f3'
                 }
 			items.push(obj);
-			//items.push(obj);
 		})
-		console.log(JSON.stringify(items))
 		console.log('adding items')
         gallery.addItems(items);
  	})

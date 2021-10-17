@@ -13,11 +13,8 @@ export const getQueryPhotos = async (query) => {
 	
   
   console.log('getQueryPhotos :' + query);
-  console.log('config_data :' + JSON.stringify(config_data));
   let options = {};  
 
-  console.log('json from url :' + mapping[query]);
-  
   return mapping[query];
 };
 
