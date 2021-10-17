@@ -78,7 +78,7 @@ componentDidMount() {
                     color: '#0070f3'
                 }
 			items.push(obj);
-			items.push(obj);
+			//items.push(obj);
 		})
 		console.log(JSON.stringify(items))
 		console.log('adding items')
