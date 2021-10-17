@@ -1,0 +1,12 @@
+{
+	"<image_id>" :{
+		"urls": {
+		   "small": "<google_drive_image_id>",
+		   "regular": "<google_drive_image_id>"
+		},
+		"width": 734,
+		"height": 979,
+		"description": "sample description",
+		"color": "#1f1f1f"
+	}
+}
