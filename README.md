@@ -68,7 +68,9 @@ Notes about code
    * resolution 400x267 px
    * apply median filter with radius=9
    
+2. requirements for thumbnail images on the preview pages:
    
-
+   * resolution height=400 px
+   * compression quality < 75
 
 
