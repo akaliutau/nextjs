@@ -95,7 +95,7 @@ export default function AboutPage(prop) {
 			</div>
 			<p/>
 			<div>In my spare time I like making photos (some of them are presented on this site), walking uncharted paths, and trying to find new hobby each month.</div>
-			<div>Because you have at least try, and you might be able to do it if you try. But you'll never be able to if you don't. </div>
+			<div>Because you have at least to try, and you might be able to do it if you try. But you'll never be able to if you don't. </div>
 			</div>
 			<SocialFollow/>
 		</main>
