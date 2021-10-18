@@ -25,11 +25,7 @@ export default function Home() {
       </Head>
 	  
 	  <header>
-		<nav>
-			<ul className="menu">
-				<NavigationBar/>
-			</ul>
-		</nav>
+		<NavigationBar/>
 	  </header>
 
       <main>
