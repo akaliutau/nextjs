@@ -66,7 +66,19 @@ See more at https://nextjs.org/docs/deployment
 
 Adding custom domain - see the https://vercel.com/docs/custom-domains
 
+Generally, this task can be done in 3 steps:
 
+Step 1: Select Your Project
+
+Select one from the Dashboard
+
+Step 2: Navigate to Domain Settings
+
+Choose Settings -> Domains
+
+Step 3: Enter Your Chosen Domain
+
+Enter the domain name (can be an apex domain, i.e. example.com, or subdomain. f.e. docs.example.com)
 
 # Configuring DNS
 

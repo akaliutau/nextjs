@@ -25,18 +25,20 @@ componentDidMount() {
 	
 	var wHeight = window.innerHeight;
 	var wWidth = window.innerWidth;
+	var imGap = 20;
 	console.log('wHeight='+wHeight);
 	console.log('wWidth='+wWidth);
     var itemsPR = Math.floor(wWidth / 300) + 1;
 	console.log('itemsPR='+itemsPR);
  	itemsPR = itemsPR > 2 ? 3 : 2;
+	imGap = itemsPR > 2 ? 50 : 10;
     var minNumbRows = Math.floor(wHeight / 300) + 1;
 	console.log('minNumbRows='+itemsPR);
  	minNumbRows = minNumbRows > 3 ? minNumbRows : 3;
 	
     var options = {
-        rowHeight: 300,
-		gap: 110,
+        rowHeight: 400,
+		gap: imGap,
 		itemsPerRow: itemsPR,
 		minRowsAtStart: minNumbRows, //<-- calculate
 		rowsPerPage: 0,
@@ -54,7 +56,7 @@ componentDidMount() {
 	var photoswipeRef = document.getElementsByClassName('pswp')[0];
 
     // Init gallery according to wanted format
-    var gallery = new NaturalGallery.Square(elementRef, options, photoswipeRef); 
+    var gallery = new NaturalGallery.Natural(elementRef, options, photoswipeRef); 
 
     // Init the gallery
     gallery.init();

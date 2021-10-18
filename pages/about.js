@@ -37,9 +37,7 @@ export default function AboutPage(prop) {
 		</header>
 		
 		<main>
-			<div className="title"> About me</div>
-			
-		    <div className="text">
+			<div className="text">
 			<div> 
 			To those I’ve never met before: Nice to meet you!
 			</div> 
@@ -96,8 +94,8 @@ export default function AboutPage(prop) {
 				</a>
 			</div>
 			<p/>
-			<div>In my spare time I like making photos (some of them are presented on this site), walking uncharted paths, and generally try to enjoy life to its fullest.</div>
-
+			<div>In my spare time I like making photos (some of them are presented on this site), walking uncharted paths, and trying to find new hobby each month.</div>
+			<div>Because you have at least try, and you might be able to do it if you try. But you'll never be able to if you don't. </div>
 			</div>
 			<SocialFollow/>
 		</main>
