@@ -28,7 +28,7 @@ export default function NavigationBar() {
 					</Navbar.Brand>
 				</Nav.Item>
 				<Nav.Item>
-					<Navbar.Brand className={navBarStyles.ref} href="/">Gallery</Navbar.Brand>
+					<Navbar.Brand className={navBarStyles.ref} href="/">Home</Navbar.Brand>
 				</Nav.Item>
 				<Nav.Item>
 					<Navbar.Brand className={navBarStyles.ref} href="/about">About me</Navbar.Brand>
