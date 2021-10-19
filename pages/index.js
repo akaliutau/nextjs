@@ -22,6 +22,10 @@ export default function Home() {
       <Head>
         <title>AV Kaliutau</title>
         <link rel="icon" href="/favicon.ico" />
+		<meta name="title" property="og:title" content="Aliaksei Kaliutau - The Photo Gallery" key="title" />
+		<meta name="description" property="og:description" content="My personal website, designed as a responsive photo gallery, where I am experimenting with various web technologies" key="description" />
+		<meta name="keywords" property="og:keywords" content="Aliaksei Kaliutau, Kaliutau, photo gallery, galleria, photos, london, bristol, uk, england, personal, nextjs, vercel, react" key="keywords" />
+		<meta name="url" property="og:url" content="avkaliutau.com" key="url" />
       </Head>
 	  
 	  <header>

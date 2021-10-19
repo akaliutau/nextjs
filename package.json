@@ -13,7 +13,7 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "bootstrap": "^5.0.2",
     "cors": "^2.8.5",
-    "next": "^11.0.0",
+    "next": "^11.1.2",
     "next-connect": "^0.10.2",
     "react": "17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
@@ -24,7 +24,7 @@
     "path": false,
     "os": false
   },
-  "description": "Experimental photo gallery",
+  "description": "The Galleria - Experimental photo gallery",
   "main": "next.config.js",
   "author": "Aliaksei Kaliutau",
   "license": "MIT",
