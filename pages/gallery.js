@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Head from 'next/head'
 import Link from 'next/link'
@@ -15,6 +15,7 @@ class Gallery extends React.Component {
 	constructor(props) {
 		super(props);
 		console.log('MyLoader props :' + JSON.stringify(props));
+		this.title = props.tag;
    }
 
 handleClientLoad() {
@@ -22,12 +23,10 @@ handleClientLoad() {
 }
 
 componentDidMount() {
-	
+
 	var wHeight = window.innerHeight;
 	var wWidth = window.innerWidth;
 	var imGap = 20;
-	console.log('wHeight='+wHeight);
-	console.log('wWidth='+wWidth);
     var itemsPR = Math.floor(wWidth / 300) + 1;
 	console.log('itemsPR='+itemsPR);
  	itemsPR = itemsPR > 2 ? 3 : 2;
@@ -82,17 +81,14 @@ componentDidMount() {
         gallery.addItems(items);
  	})
 
-	
-
-
-
 }
 
 render() {
+
       return (
 	  	<div className="container">
         <Head>
-        <title>Photos</title>
+		<title>{this.title}</title>
 		<link rel="stylesheet" href="assets/photoswipe/photoswipe.css"/>
 		<link rel="stylesheet" href="assets/photoswipe/default-skin/default-skin.css"/>
 		<script src="assets/photoswipe/photoswipe.min.js" defer></script>

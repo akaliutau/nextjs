@@ -1,5 +1,6 @@
 import NavigationBar from '../components/NavigationBar'
 import SocialFollow from '../components/SocialFollow'
+import Head from 'next/head'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -31,7 +32,9 @@ export default function AboutPage(prop) {
   return (
   	<div>
 	  <div className="container">
- 
+        <Head>
+		   <title>About</title>
+		</Head>
 		<header>
            <NavigationBar/>
 		</header>
