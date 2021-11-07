@@ -106,7 +106,7 @@
 		},
 		"width": 734,
 		"height": 979,
-		"description": "King Cross train station",
+		"description": "Kings Cross train station",
 		"color": "#1f1f1f"
 	},
 	"IMG_20210929_112439" :{
@@ -127,6 +127,26 @@
 		"width": 979,
 		"height": 734,
 		"description": "View of downtown from Archway Road",
+		"color": "#1f1f1f"
+	},
+	"IMG_20211031_131321" :{
+		"urls": {
+		   "small": "1ZjnDLrj6LIRWnR6c2ivxsuWAW9DnrDgF",
+		   "regular": "1i_xs4JJM8Tr6qgbyPBFCfJGKVhxyJu2r"
+		},
+		"width": 979,
+		"height": 734,
+		"description": "View of downtown from Hampstead Heath park",
+		"color": "#1f1f1f"
+	},
+	"IMG_20211031_144321" :{
+		"urls": {
+		   "small": "1775v8JF5L0qLfew7708jFCCAGvU6kwgi",
+		   "regular": "1wVV-ze8YKXM3wDIJrUrL0i0D2mH8ddSF"
+		},
+		"width": 734,
+		"height": 979,
+		"description": "Finsbury Park trains hub",
 		"color": "#1f1f1f"
 	}
 }
