@@ -148,5 +148,15 @@
 		"height": 979,
 		"description": "Finsbury Park trains hub",
 		"color": "#1f1f1f"
+	},
+	"IMG_20211225_133321" :{
+		"urls": {
+		   "small": "11B-VjZhEIFjc-1q3pcXvMdEkbkA7SK6i",
+		   "regular": "11vob8AnVzOjQ-bcBANeH4SkC-BJMEflT"
+		},
+		"width": 734,
+		"height": 979,
+		"description": "City in the Clouds",
+		"color": "#1f1f1f"
 	}
 }
