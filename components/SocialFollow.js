@@ -18,7 +18,7 @@ export default function SocialFollow() {
 		<div className={styles.socialContainer}>
 		<div> Follow me: </div>
 		<span> </span>
-	    <a href="https://www.twitter.com/kaliutau" className="twitter social">
+	    <a href="https://www.twitter.com/akaliutau" className="twitter social">
 			<FontAwesomeIcon icon={faTwitter} size="2x" />
 		</a>
 		<span> </span>
