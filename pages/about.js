@@ -48,11 +48,11 @@ export default function AboutPage(prop) {
 			To those I’ve met before: Long time no see!
 			</div> 
 			<p/>
-			<div>My name is Aliaksei. I work as a software developer for various companies whilst living a nomadic global lifestyle. Currently I'm working on petabyte scale Analytical Data Pipelines at <a href="https://www.ocadogroup.com/technology/technology-pioneers" rel="noopener noreferrer" target="_blank">Ocado Technology</a>, and my previous work at <a href="https://ibagroupit.com/" rel="noopener noreferrer" target="_blank"> IBA</a> was tied with the area of Intelligent Automations and AI Research.</div>
+			<div>My name is Aliaksei (aka Al). I work as a software developer for various companies whilst living a nomadic global lifestyle. My latest project was Bot Data Platform at <a href="https://www.ocadogroup.com/technology/technology-pioneers" rel="noopener noreferrer" target="_blank">Ocado Technology</a>, and my previous work at <a href="https://ibagroupit.com/" rel="noopener noreferrer" target="_blank"> IBA</a> was tied with the area of Intelligent Automations and AI Research (I worked at RnD department on pioneering technology in MLaaS/RPAaaS domain).</div>
 			<p/>
-            <div> My background is a Masters Degree in Physics / Computer Science from Brest State University. I always was interested both in Physics / Mathematics and in application of scientific principles to solve real-life problems. Modern IT industry gave me the chance to fulfill these interests.</div>
+            <div> My background is a Masters Degree in Physics and Informatics from Brest State University. I always was interested both in Physics and in application of scientific principles to solve real-life problems. Working in IT industry for deep tech companies helped me to achieve that goal. My love to Science (and to Physics in particular) still lasts, and my career path is a unique mixture of innovative work, inspiration and bright achievements.</div>
 			<p/>
-			<div>I specialise in the applications of AI/ML in various markets, in high-performance distributed systems, as well as in other more novel areas such as RPA, Intelligent Automations, and always ready to learn something new. Technology is constantly evolving, and I like it. I'm always on the quest for the Holy Stack.</div>
+			<div>I specialise in the applications of AI/ML in various markets, in high-performance distributed systems, and always ready to learn something new. Technology is constantly evolving, and I like it. I'm always on the quest for the Holy Stack.</div>
 			<p/>
 			<div> Here are my favourite languages and tools:</div>
 			<p/>
