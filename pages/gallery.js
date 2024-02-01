@@ -8,7 +8,7 @@ import NavigationBar from '../components/NavigationBar'
 
 var Template = require('./template');
 
-const base_storage_url = 'assets/photos/';
+const base_storage_url = 'photos/';
 
 class Gallery extends React.Component { 
 
