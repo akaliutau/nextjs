@@ -8,7 +8,7 @@ import NavigationBar from '../components/NavigationBar'
 
 var Template = require('./template');
 
-const base_storage_url = '../public/photos/';
+const base_storage_url = 'assets/photos/';
 
 class Gallery extends React.Component { 
 
@@ -69,8 +69,8 @@ componentDidMount() {
 		Object.keys(data).forEach(function(val){
 			var i = data[val];
 			var obj = {
-                    thumbnailSrc: 'url(' + base_storage_url + tag + '/tumblr' + val + '_t.jpg' + ')',
-                    enlargedSrc: 'url(' + base_storage_url + tag + '/' + val + '.jpg' + ')',
+                    thumbnailSrc: base_storage_url + tag + '/tumblr' + val + '_t.jpg',
+                    enlargedSrc: base_storage_url + tag + '/' + val + '.jpg',
                     enlargedWidth: i.width,
                     enlargedHeight: i.height,
                     title: i.description ? i.description : "",
