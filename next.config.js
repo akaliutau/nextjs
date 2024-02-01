@@ -5,6 +5,10 @@ module.exports = {
   env: {
     UNSPLASH_API_KEY: process.env.UNSPLASH_API_KEY
   },
+  images: {
+    loader: "akamai",
+    path: "/",
+  },
   webpack5: true,
   async headers() {
     return [

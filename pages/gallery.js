@@ -8,7 +8,7 @@ import NavigationBar from '../components/NavigationBar'
 
 var Template = require('./template');
 
-const base_storage_url = 'photos/';
+const base_storage_url = 'https://photogallery-versel-images.s3.eu-west-2.amazonaws.com/photos/';
 
 class Gallery extends React.Component { 
 
@@ -69,7 +69,7 @@ componentDidMount() {
 		Object.keys(data).forEach(function(val){
 			var i = data[val];
 			var obj = {
-                    thumbnailSrc: base_storage_url + tag + '/tumblr' + val + '_t.jpg',
+                    thumbnailSrc: base_storage_url + tag + '/tumblr/' + val + '_t.jpg',
                     enlargedSrc: base_storage_url + tag + '/' + val + '.jpg',
                     enlargedWidth: i.width,
                     enlargedHeight: i.height,
@@ -99,7 +99,6 @@ render() {
 		<link rel="stylesheet" href="assets/natural-gallery-js/themes/natural.css"/>
 		<script src="assets/natural-gallery-js/natural-gallery.js" defer></script>
         <link rel="stylesheet" href="assets/main.css"/>
-
 
       </Head>
 	  <Template/>
