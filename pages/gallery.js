@@ -69,8 +69,8 @@ componentDidMount() {
 		Object.keys(data).forEach(function(val){
 			var i = data[val];
 			var obj = {
-                    thumbnailSrc: url(base_storage_url + tag + '/tumblr' + val + '_t.jpg'),
-                    enlargedSrc: url(base_storage_url + tag + '/' + val + '.jpg'),
+                    thumbnailSrc: 'url(' + base_storage_url + tag + '/tumblr' + val + '_t.jpg' + ')',
+                    enlargedSrc: 'url(' + base_storage_url + tag + '/' + val + '.jpg' + ')',
                     enlargedWidth: i.width,
                     enlargedHeight: i.height,
                     title: i.description ? i.description : "",
