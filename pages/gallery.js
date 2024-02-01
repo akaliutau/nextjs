@@ -8,7 +8,7 @@ import NavigationBar from '../components/NavigationBar'
 
 var Template = require('./template');
 
-const base_storage_url = 'https://drive.google.com/uc?id=';
+const base_storage_url = '../public/photos/';
 
 class Gallery extends React.Component { 
 
@@ -51,16 +51,17 @@ componentDidMount() {
 	this.handleClientLoad();
  
     // Get reference of gallery container
-    var elementRef = document.getElementById('gallery');
-	var photoswipeRef = document.getElementsByClassName('pswp')[0];
+    const elementRef = document.getElementById('gallery');
+	const photoswipeRef = document.getElementsByClassName('pswp')[0];
 
     // Init gallery according to wanted format
-    var gallery = new NaturalGallery.Natural(elementRef, options, photoswipeRef); 
+    const gallery = new NaturalGallery.Natural(elementRef, options, photoswipeRef); 
+	const tag = this.props.tag;
 
     // Init the gallery
     gallery.init();
 	
-	getQueryPhotos(this.props.tag)
+	getQueryPhotos(tag)
 	.then(data => {
 		//Covert your map object into JSON object
 		var items=[];
@@ -68,8 +69,8 @@ componentDidMount() {
 		Object.keys(data).forEach(function(val){
 			var i = data[val];
 			var obj = {
-                    thumbnailSrc: base_storage_url + i.urls.small,
-                    enlargedSrc: base_storage_url + i.urls.regular,
+                    thumbnailSrc: url(base_storage_url + tag + '/tumblr' + val + '_t.jpg'),
+                    enlargedSrc: url(base_storage_url + tag + '/' + val + '.jpg'),
                     enlargedWidth: i.width,
                     enlargedHeight: i.height,
                     title: i.description ? i.description : "",
